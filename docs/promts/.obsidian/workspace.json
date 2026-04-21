@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "d581d1cddb804be6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7797fd4d7184275b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "939aaf02eca1db09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.20260417095448V.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README.20260417095448V"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b35852f65e94956",
+    "type": "split",
+    "children": [
+      {
+        "id": "64462c032e7cc4b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d480f03fc7caf7a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "04ed15b146e4cd64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "fb07169d024cc2d6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c154a3d09e241710",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ae4909bb278ce8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dcd557f8caddd13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rubrica_proyecto_ix_analisis_datos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de rubrica_proyecto_ix_analisis_datos"
+            }
+          },
+          {
+            "id": "f3162dd23cffbae9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rubrica_proyecto_ix_analisis_datos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de rubrica_proyecto_ix_analisis_datos"
+            }
+          },
+          {
+            "id": "4eb2e77bf95a2fcc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "611d11ec88267322",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "336cedefc1b72147",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rubrica_proyecto_ix_analisis_datos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de rubrica_proyecto_ix_analisis_datos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "939aaf02eca1db09",
+  "lastOpenFiles": [
+    "~WRL3914.tmp",
+    "~WRD3902.tmp",
+    "~WRL3556.tmp",
+    "~WRD3544.tmp",
+    "~WRL0409.tmp",
+    "~WRD0394.tmp",
+    "~WRD0004.tmp",
+    "~$tPush.P8-Data-Analyst.20260417150732V.docx",
+    "GitPush.P8-Data-Analyst.20260417150732V.docx",
+    "~$tPush.P8-Data-Analyst.docx",
+    "~WRL0001.tmp",
+    "informe_conclusiones_EDA.20260417095426V.md",
+    "README.20260417095448V.md",
+    "README.PROYECTO_DATA_ANALYST_Análisis_y_visualización_de_datos.20260414135817M.md",
+    "protocolo_EDA_v2.20260415201022M.md",
+    "README.md",
+    "informe_conclusiones_EDA.md",
+    "guion_P8_Data_Analyst_v2.20260415040400X.md",
+    "guion_proyecto_ix_data_analyst.20260414154816M.md",
+    "protocolo_eda_ampliado_p8.20260415192935M.md",
+    "protocolo_EDA_ampliado.20260415172045X.md",
+    "La respuesta de Claude fue interrumpida.20260414165228M.md",
+    "protocolo_EDA_v2.md",
+    "protocolo_eda_ampliado_p8.md",
+    "guion_proyecto_ix_data_analyst.md",
+    "guion_P8_Data_Analyst_v2.md",
+    "protocolo_EDA_ampliado.md",
+    "credentials.json/SPEC.20260330152301L.md",
+    "credentials.json/prompt-agente-completar-portfolio-copilot.20260331004913M.md",
+    "credentials.json/PASOS.20260331135737M.md",
+    "credentials.json/PASOS.20260330234900L.md",
+    "credentials.json/CHANGELOG.20260331133201M.md",
+    "credentials.json/CHANGELOG.20260330234844L.md",
+    "Sin título.md",
+    "rubrica_proyecto_ix_analisis_datos.md"
+  ]
+}

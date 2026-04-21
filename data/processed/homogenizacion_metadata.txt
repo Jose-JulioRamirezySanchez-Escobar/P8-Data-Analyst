@@ -1,0 +1,23 @@
+METADATOS DE HOMOGENIZACIÓN — P8-Data-Analyst
+Fecha de ejecución: 2026-04-16 15:44:12
+
+Filas totales: 219,981
+Columnas: ['id', 'name', 'host_id', 'host_name', 'neighbourhood', 'latitude', 'longitude', 'room_type', 'price', 'price_eur', 'minimum_nights', 'number_of_reviews', 'last_review', 'reviews_per_month', 'city', 'moneda_origen']
+
+TIPO DE CAMBIO A EUR:
+  Fecha referencia: 2025-01-01
+  EUR: 1.0
+  GBP: 1.21
+  USD: 0.92
+  AUD: 0.59
+  JPY: 0.0061
+
+DECISIONES DE LIMPIEZA:
+  - Duplicados: eliminados por id (keep=first)
+  - reviews_per_month nulo: imputado con 0
+  - name/host_name nulo: imputado con Unknown
+  - price <= 0: eliminados
+  - Coordenadas nulas: eliminadas
+  - Tokio: caracteres japoneses transliterados en columna name
+  - Milán: fechas parseadas con dayfirst=True
+  - Columnas excluidas: neighbourhood_group, calculated_host_listings_count, availability_365

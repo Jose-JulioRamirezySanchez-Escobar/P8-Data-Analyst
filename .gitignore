@@ -18,3 +18,10 @@ client_secret*.json
 drive_links.json
 docs/tmp/
 main.py
+
+# Temporales de Office
+~$*
+~WRL*.tmp
+
+# Logs locales
+logs
