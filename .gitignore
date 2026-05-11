@@ -1,37 +1,62 @@
-#C:\Users\Coder\Proyectos\P8-Data-Analyst\.gitignore
-#	20260424084902*
+# ─────────────────────────────────────────────
+#  P8-Data-Analyst — .gitignore
+#  Generado: 20260508
+# ─────────────────────────────────────────────
 
-# Python-generated files
+# --- Python / uv ---------------------------------
+.venv/
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Virtual environments
-.venv
-credentials.json
-token.json
-client_secret*.json
-*.pyc
-*.log
+# Jupyter
 .ipynb_checkpoints/
-drive_links.json
-docs/tmp/
-main.py
+notebooks/.ipynb_checkpoints/
 
-# Temporales de Office
+# (uv.lock SÍ se commitea, no lo excluyas)
+
+# --- Credenciales y secretos ---------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret*.json
+token.json
+*token*.json
+
+# --- Trabajo local (acordado equipo) -------------
+logs/
+*.log
+kanban/*
+!kanban/.gitkeep
+
+# --- Editores / IDE ------------------------------
+.obsidian/
+docs/promts/.obsidian/
+.vscode/
+.idea/
+
+# --- Office temp / lock files --------------------
 ~$*
 ~WRL*.tmp
 
-# Logs locales
-logs
+# --- Sistema operativo ---------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
 
-# Temporales de Obsidian
-.obsidian
+# --- Datasets pesados (revisa antes) -------------
+# Descomenta si decides NO subir los datos crudos:
+# data/raw/
+# data/processed/airbnb_homogenizado.csv
+
+carycooper777/
 
 # Archivos Temporales o Scratch.
 *.old.*
 *lista*
-
